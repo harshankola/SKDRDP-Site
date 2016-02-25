@@ -24,6 +24,7 @@
         <script src="js/ie-emulation-modes-warning.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="js/ie10-viewport-bug-workaround.js"></script>
+        <!-- Google Analytics tracking code -->
         <script>
             (function (i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
@@ -203,7 +204,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div><!-- end of .carousel-inner wrapper -->
 
             <!-- Slide controls -->
             <a class="left carousel-control" href="#programs-carousel" role="button" data-slide="prev">
@@ -212,7 +213,7 @@
             <a class="right carousel-control" href="#programs-carousel" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
-        </div>
+        </div><!-- end of .carousel -->
 
         <!-- Midpage alert for downloads -->
         <div class="container alert alert-success" role="alert">
@@ -269,26 +270,26 @@
                                 </tr>
                                 <tr>
                                     <td>Active SHG's</td>
-                                    <td>3,26,000 SHG's</td>
+                                    <td>3,32,000 SHG's</td>
                                 </tr>
                                 <tr>
                                     <td>Total Members</td>
-                                    <td>35,63,300 Members</td>
+                                    <td>35,57,300 Members</td>
                                 </tr>
                                 <tr>
                                     <td>Loans disbursed(FY)</td>
-                                    <td>Rs. 2,622.00 Crores</td>
+                                    <td>Rs. 3,309.49 Crores</td>
                                 </tr>
                                 <tr>
                                     <td>Currently Outstanding Loans</td>
-                                    <td>Rs. 4,053.00 Crores</td>
+                                    <td>Rs. 4,467.18 Crores</td>
                                 </tr>
                                 <tr class="success">
                                     <th colspan="2">Credit+ Activities</th>
                                 </tr>
                                 <tr>
                                     <td>Destitute Pension Given (FY)</td>
-                                    <td>Rs. 1.10 Crores</td>
+                                    <td>Rs. 1.35 Crores</td>
                                 </tr>
                                 <tr>
                                     <td>SIRI members</td>
@@ -296,31 +297,31 @@
                                 </tr>
                                 <tr>
                                     <td>Sampoorna Suraksha</td>
-                                    <td>7,58,222 claims</td>
+                                    <td>7,63,915 claims</td>
                                 </tr>
                                 <tr>
                                     <td>Training programs(FY)</td>
-                                    <td>617 trainings</td>
+                                    <td>666 trainings</td>
                                 </tr>
                                 <tr>
                                     <td>Total Participants attended(FY)</td>
-                                    <td>21,066 people</td>
+                                    <td>22,395 people</td>
                                 </tr>
                                 <tr>
                                     <td>Community Development Spending</td>
-                                    <td>Rs. 9,005 lakhs</td>
+                                    <td>Rs. 9,096 lakhs</td>
                                 </tr>
                                 <tr>
                                     <td>Sujnana Nidhi Scholarships</td>
-                                    <td>Rs. 2,190 lakhs</td>
+                                    <td>Rs. 2,248 lakhs</td>
                                 </tr>
                                 <tr>
                                     <td>De-addiction camps</td>
-                                    <td>908 camps</td>
+                                    <td>910 camps</td>
                                 </tr>
                                 <tr>
                                     <td>People de-addicted</td>
-                                    <td>73,700 people </td>
+                                    <td>73,800 people </td>
                                 </tr>
                                 <tr>
                                     <td>Jnana Vikasa Members</td>
@@ -332,15 +333,32 @@
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
-                </div>                    
-            </div>
+                    </div><!-- end of div for table wrapper -->
+                </div><!-- end of .col -->
+            </div><!-- end of .row for 1st content row -->
             <hr />
             <div class="row">
                 <!-- Latest News -->
                 <div class="col-lg-6 col-md-4 col-sm-6 hidden-xs" >
-                    <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FskdrdpOfficial&amp;width&amp;height=395&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=238566762861003" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:395px;" allowTransparency="true"></iframe>
-                </div>
+                    <!-- Facebook plugin code -->
+                    <div id="fb-root"></div>
+                    <script>(function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id))
+                                return;
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>
+                    <div class="fb-page" data-href="https://www.facebook.com/skdrdpOfficial/" data-tabs="timeline,events" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                        <div class="fb-xfbml-parse-ignore">
+                            <blockquote cite="https://www.facebook.com/skdrdpOfficial/">
+                                <a href="https://www.facebook.com/skdrdpOfficial/">Sri Kshetra Dharmasthala Rural Development Project</a>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div> <!-- end of .col latest news -->
                 <!-- Downloads -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" >
                     <div class="panel panel-primary">
@@ -361,8 +379,8 @@
                             <a target="_blank" href="downloads/Balance Sheet 2012-13.pdf" class="list-group-item">Balance Sheet 12-13</a>
                             <a target="_blank" href="downloads/Annual report 12-13.pdf" class="list-group-item">Annual Report 12-13</a>                            
                         </div>
-                    </div>
-                </div>
+                    </div> <!-- end of .panel -->
+                </div> <!-- end of .col -->
                 <!-- Contact Us -->
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" >
                     <div class="panel panel-primary">
@@ -383,10 +401,10 @@
                                 <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:skdrdp@skdrdpindia.org">skdrdp@skdrdpindia.org</a>
                             </address>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </div> <!-- end of .panel -->
+                </div><!-- end of .col -->
+            </div><!-- end of .row for 2nd content panels -->
+        </div><!-- end of .container -->
         <!-- Bootstrap core JavaScript -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script type="text/javascript" src="js/jquery.min.js"></script>
